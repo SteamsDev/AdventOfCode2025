@@ -114,6 +114,8 @@ void Day1::run() {
         oldStart = start;
     }
 
+    file.close();
+
     // Print final results.
     cout << "Final Position: " << start << endl;
     cout << "Final 0 Count: " << zeroCount << endl;

@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "Day1.h"
+#include "Day2.h"
 
 using std::cout;
 using std::cin;
@@ -12,5 +13,9 @@ int main() {
 	Day1 day1;
 	day1.run();
 
-	return 0;
+	// Day 2
+	Day2 day2;
+	day2.run();
+
+	return EXIT_SUCCESS;
 }
